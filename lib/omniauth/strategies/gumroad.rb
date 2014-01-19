@@ -7,9 +7,9 @@ module OmniAuth
       option :name, "gumroad"
 
       option :client_options, {
-        :authorize_url => 'http://local.host:3333/oauth/authorize',
-        :token_url => 'http://local.host:3333/oauth/token',
-        :site => "http://local.host:3333"
+        :authorize_url => 'https://gumroad.com/oauth/authorize',
+        :token_url => 'https://gumroad.com/oauth/token',
+        :site => "https://gumroad.com"
       }
 
       def request_phase
