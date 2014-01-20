@@ -1,2 +1,2 @@
 require "omniauth-gumroad/version"
-require 'omniauth/strategies/gumroad'
+require "omniauth/strategies/gumroad"

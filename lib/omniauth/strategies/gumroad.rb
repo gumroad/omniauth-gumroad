@@ -1,4 +1,4 @@
-require 'omniauth/strategies/oauth2'
+require "omniauth/strategies/oauth2"
 
 module OmniAuth
   module Strategies
@@ -7,9 +7,9 @@ module OmniAuth
       option :name, "gumroad"
 
       option :client_options, {
-        :authorize_url => 'https://gumroad.com/oauth/authorize',
-        :token_url => 'https://gumroad.com/oauth/token',
-        :site => "https://gumroad.com"
+        authorize_url: "https://gumroad.com/oauth/authorize",
+        token_url: "https://gumroad.com/oauth/token",
+        site: "https://gumroad.com"
       }
 
       def request_phase
@@ -40,17 +40,17 @@ module OmniAuth
         }
       end
 
-      uid { raw_info['id'].to_s }
+      uid { raw_info["id"].to_s }
 
       extra do
-        {:raw_info => raw_info}
+        { raw_info: raw_info }
       end
 
       def raw_info
-        @raw_info ||= access_token.get('/api/v2/user').parsed
+        @raw_info ||= access_token.get("/api/v2/user").parsed
       end
     end
   end
 end
 
-OmniAuth.config.add_camelization 'gumroad', 'Gumroad'
+OmniAuth.config.add_camelization "gumroad", "Gumroad"
