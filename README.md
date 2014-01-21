@@ -7,6 +7,14 @@ This is the offical OmniAuth strategy for authenticating to Gumroad.  To use it,
 
 ## Basic Usage
 
+Add to Gemfile:
+
+```ruby
+gem 'omniauth-gumroad
+```
+
+Now are you are ready to use!
+
 ```ruby
 use OmniAuth::Builder do
   provider :gumroad, ENV['GUMROAD_APPLICATION_ID'], ENV['GUMROAD_APP_SECRET']
