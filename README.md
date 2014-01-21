@@ -10,7 +10,7 @@ This is the offical OmniAuth strategy for authenticating to Gumroad.  To use it,
 Add to Gemfile:
 
 ```ruby
-gem 'omniauth-gumroad
+gem 'omniauth-gumroad'
 ```
 
 Now are you are ready to use!
