@@ -8,7 +8,8 @@ Gem::Specification.new do |gem|
   gem.email       = ["maxwell@gumroad.com"]
   gem.homepage    = "https://github.com/gumroad/omniauth-gumroad"
   gem.summary     = %q{OmniAuth strategy for Gumroad}
-  gem.description = %q{OmniAuth strategy for Gumroad}
+  gem.description = %q{OmniAuth strategy for Gumroad, see https://github.com/gumroad/omniauth-gumroad for examples and more information.}
+  gem.license = 'MIT'
 
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

@@ -40,7 +40,7 @@ module OmniAuth
         }
       end
 
-      uid { raw_info["id"].to_s }
+      uid { raw_info["user"]["id"].to_s }
 
       extra do
         { raw_info: raw_info }
