@@ -18,7 +18,7 @@ The Gumroad API lets you set scopes to provide varying levels of access to diffe
 
 ```ruby
 use OmniAuth::Builder do
-  provider :gumroad, ENV['GUMROAD_APPLICATION_ID'], ENV['GUMROAD_APP_SECRET'], scope: 'edit_products'
+  provider :gumroad, ENV['GUMROAD_APPLICATION_ID'], ENV['GUMROAD_APP_SECRET'], scope: 'edit_products view_sales'
 end
 ```
 
