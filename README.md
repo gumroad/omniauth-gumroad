@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/gumroad/omniauth-gumroad.png?branch=master)](https://travis-ci.org/maxwellE/omniauth-gumroad)
 [![Gem Version](https://badge.fury.io/rb/omniauth-gumroad.png)](http://badge.fury.io/rb/omniauth-gumroad)
 
-This is the offical OmniAuth strategy for authenticating to Gumroad.  To use it, you'll need to sign up for an OAuth Application ID and Application Secret on the [Gumroad Applications Page](https://gumroad.com/settings/advanced).
+This is the official OmniAuth strategy for authenticating to Gumroad.  To use it, you'll need to sign up for an OAuth Application ID and Application Secret on the [Gumroad Applications Page](https://gumroad.com/settings/advanced).
 
 ## Basic Usage
 
