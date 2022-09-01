@@ -32,7 +32,7 @@ GEM
     omniauth-oauth2 (1.6.0)
       oauth2 (~> 1.1)
       omniauth (~> 1.9)
-    rack (2.2.3)
+    rack (2.2.3.1)
     rack-test (0.6.2)
       rack (>= 1.0)
     rake (13.0.1)
