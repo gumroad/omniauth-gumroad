@@ -8,7 +8,8 @@ PATH
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.3.5)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     crack (0.4.1)
       safe_yaml (~> 0.9.0)
     diff-lcs (1.2.5)
@@ -32,6 +33,7 @@ GEM
     omniauth-oauth2 (1.6.0)
       oauth2 (~> 1.1)
       omniauth (~> 1.9)
+    public_suffix (5.0.0)
     rack (2.2.3.1)
     rack-test (0.6.2)
       rack (>= 1.0)
